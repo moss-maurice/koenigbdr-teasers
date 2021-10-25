@@ -1,5 +1,5 @@
 
-# Обновление тизеров для https://www.koenigbdr.devs.ideo-software.com/
+# Обновление тизеров для *www.koenigbdr.devs.ideo-software.com*
 
 ![main](https://raw.githubusercontent.com/moss-maurice/koenigbdr-teasers/main/assets/images/main.png)
 
@@ -26,3 +26,9 @@ root@localhost:~/koenigbdr-teasers#: composer update
 root@localhost:~/koenigbdr-teasers#: php cli.php
 ```
 Эту же команду достаточно добавить в планировщик CRON.
+
+4) Для включения режима отладки, необходимо в файле `koenigbdr-teasers/configs/config.php` добавить в начале следующий код:
+```php
+define('TEST_ENV', true);
+```
+Или достаточно раскоментировать аналогичную строку в файле `koenigbdr-teasers/cli.php`.
