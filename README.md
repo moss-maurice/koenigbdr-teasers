@@ -3,7 +3,7 @@
 
 ![main](https://raw.githubusercontent.com/moss-maurice/koenigbdr-teasers/main/assets/images/main.png)
 
-![PHP version](https://img.shields.io/badge/PHP->=v7.3-red.svg?php=7.3) ![qURL Library](https://img.shields.io/badge/qURL->=v0.1.1-green.svg?qURL=0.1.1) ![PHP Console Color Library](https://img.shields.io/badge/php-console-color->=v0.1-orange.svg?php-console-color=0.1)
+![PHP version](https://img.shields.io/badge/PHP->=v7.3-red.svg?php=7.3) ![qURL Library](https://img.shields.io/badge/qURL->=v0.1.1-green.svg?qURL=0.1.1) ![PHP Console Color Library](https://img.shields.io/badge/PHP%20Console%20Color-%3E=v0.1-orange.svg?phpConsoleColor=0.1)
 
 ## Для чего это надо?
 Данный модуль реализован для обновления тизеров на сайте [www.koenigbdr.devs.ideo-software.com](https://www.koenigbdr.devs.ideo-software.com/)
