@@ -1,0 +1,22 @@
+{
+    "name": "mmaurice/koenigbdr-teasers",
+    "description": "Buch Deine Reise Teasers updater",
+    "type": "project",
+    "license": "GPL-2.0+",
+    "authors": [{
+        "name": "Moss Maurice",
+        "email": "kreexus@yandex.ru",
+        "role": "developer"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.3",
+        "mmaurice/qurl": "^0.1.0",
+        "php-parallel-lint/php-console-color": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mmaurice\\bdr\\teasers\\": "src/"
+        }
+    }
+}
