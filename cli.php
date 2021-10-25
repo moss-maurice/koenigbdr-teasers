@@ -75,6 +75,7 @@ try {
         exit;
     }
 } catch (Exception $exception) {
+    $registry->get('logger')->set("Canceled with error", [], Logger::LEVEL_IMPORTANT);
     $registry->get('logger')->set($exception->getMessage(), [], Logger::LEVEL_ERROR);
 
     // Выход с ошибкой
