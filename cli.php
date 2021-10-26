@@ -71,6 +71,10 @@ try {
 
         $registry->get('logger')->set("Done in {$time}", [], Logger::LEVEL_IMPORTANT);
 
+        $modx->clearCache('full');
+
+        $registry->get('logger')->set("Cache cleared", [], Logger::LEVEL_IMPORTANT);
+
         // Нормальный выход
         exit;
     }
