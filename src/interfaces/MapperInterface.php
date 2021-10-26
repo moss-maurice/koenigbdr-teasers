@@ -83,7 +83,7 @@ abstract class MapperInterface
         }
 
         // Возвращаем JSON-код с данными тизера
-        return json_encode($teaserData);
+        return json_encode($teaserData, JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
     }
 
     /**
